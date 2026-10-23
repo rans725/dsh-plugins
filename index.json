@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "title": {
+    "en": "rans725 DSH plugins",
+    "zh": "rans725 的 DSH 插件"
+  },
+  "description": {
+    "en": "Self-hosted plugin market index for @rans725's DeepSeek Harness plugins.",
+    "zh": "rans725 自托管的 DeepSeek Harness 插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "UI Enhancements",
+          "zh": "界面增强"
+        }
+      },
+      "session": {
+        "title": {
+          "en": "Sessions & Messages",
+          "zh": "会话与消息"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-workspace-ranswork",
+      "title": {
+        "en": "dsh-workspace-ranswork",
+        "zh": "工作区总览 · 对话总览"
+      },
+      "description": {
+        "en": "Sidebar workspace panel that switches between running tasks and all conversations: one freely sortable card list with per-card actions (pin / rename / copy id / fork / stop / archive).",
+        "zh": "工作区总览 / 对话总览：侧栏面板在「运行中任务」与「全部对话」之间切换，统一的可自由排序卡片列表，每张卡片可置顶、重命名、复制 ID、分叉、停止、归档。"
+      },
+      "author": "rans725",
+      "homepage": "https://github.com/rans725/dsh-workspace-ranswork#readme",
+      "repository": {
+        "url": "https://github.com/rans725/dsh-workspace-ranswork"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "workspace",
+          "overview",
+          "sessions",
+          "sidebar",
+          "running-tasks",
+          "工作区",
+          "总览",
+          "对话总览",
+          "会话总览"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.4.0",
+          "publishTimestamp": 1792683970,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
